@@ -1,64 +1,73 @@
 # Food Delivery App
 
-Welcome to the Food Delivery App repository! This application is built using React Native Expo, Sanity.io, Tailwind CSS, React Navigation, and other exciting features to create a robust food delivery experience.
-
-## Project Overview
-
-The Food Delivery App is designed to provide a seamless and user-friendly interface for customers to browse through a variety of food options, place orders, and enjoy a convenient delivery service.
+Welcome to the Food Delivery App repository! This project is developed using React Native, Sanity.io, Native Wind, React Navigation, and Expo. Below, you'll find detailed explanations of the technologies used, installation instructions, and information about the project repository.
 
 ## Technologies Used
 
-- React Native Expo
-- Sanity.io
-- Tailwind CSS
-- React Navigation
-- Data Fetching
-- And many more features...
+### 1. React Native
+React Native is a popular framework for building cross-platform mobile applications using JavaScript and React. It allows for efficient development of mobile apps for both iOS and Android platforms.
+
+Learn more about React Native: [React Native Documentation](https://reactnative.dev/)
+
+### 2. Sanity.io
+Sanity.io is a headless content management system (CMS) that provides a flexible and customizable backend for managing content. In this project, Sanity.io is used for handling data related to the food delivery app.
+
+Learn more about Sanity.io: [Sanity.io Documentation](https://www.sanity.io/docs/)
+
+### 3. Native Wind
+Native Wind is a utility-first CSS framework that is used for styling in this project. It helps in creating a responsive and consistent user interface.
+
+Learn more about Native Wind: [Native Wind Documentation](https://native.windcss.com/)
+
+### 4. React Navigation
+React Navigation is a library for routing and navigation in React Native applications. It provides a smooth and customizable navigation experience.
+
+Learn more about React Navigation: [React Navigation Documentation](https://reactnavigation.org/)
+
+### 5. Expo
+Expo is a framework and a set of tools built around React Native to simplify the development and deployment of mobile apps. It provides a range of services like an integrated development environment (IDE), push notifications, and more.
+
+Learn more about Expo: [Expo Documentation](https://docs.expo.dev/)
 
 ## Installation
 
-Follow these steps to set up and run the project on your local machine:
+To get started with the Food Delivery App, follow these steps:
 
 1. Clone the repository:
+   ```bash
+   git clone https://github.com/darrielmarkerizal/FoodDeliveryApp.git
+   ```
 
-```bash
-git clone https://github.com/darrielmarkerizal/FoodDeliveryApp.git
-```
-
-2. Change to the project directory:
-
-```bash
-cd FoodDeliveryApp
-```
+2. Navigate to the project directory:
+   ```bash
+   cd FoodDeliveryApp
+   ```
 
 3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm install
-```
+## Running the App
 
-## Running the Emulator
+To run the app on an emulator (iOS or Android), use the following commands:
 
-To run the application on your iOS emulator, use the following command:
-
+For iOS:
 ```bash
 npm run ios
 ```
 
-To run the application on your Android emulator, use the following command:
-
+For Android:
 ```bash
 npm run android
 ```
 
-## Project Status
+## Note
 
-This project is still in the development stage. Contributions are welcome, and additional features are planned for future releases.
+This project is still in the development stage and may contain bugs or incomplete features. Feel free to contribute by submitting issues or pull requests.
 
 ## License
 
-This project is currently without a specific license. Please check back for updates on the licensing terms.
+This project is currently without a specific license. Please refer to the repository for more information.
 
-Feel free to explore the codebase and contribute to the development of the Food Delivery App! If you encounter any issues or have suggestions, please submit them through the [GitHub Issues](https://github.com/darrielmarkerizal/FoodDeliveryApp/issues) page.
-
-Happy coding! 🚀
+Thank you for checking out the Food Delivery App repository! If you have any questions or feedback, feel free to reach out. Happy coding! 🚀
