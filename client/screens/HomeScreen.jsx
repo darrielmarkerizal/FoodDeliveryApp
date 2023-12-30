@@ -1,8 +1,10 @@
-import { View, Text, TextInput } from "react-native";
+import { View, Text, TextInput, ScrollView } from "react-native";
 import React from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import * as Icon from "react-native-feather";
+import { themeColors } from "../theme";
+import Categories from "../components/categories";
 
 export default function HomeScreen() {
   return (
@@ -14,10 +16,27 @@ export default function HomeScreen() {
           <TextInput placeholder="Search Restaurant" className="ml-2 flex-1" />
           <View className="flex-row items-center space-x-1 border-0 border-l-2 pl-2 border-l-gray-300">
             <Icon.MapPin height="25" width="25" stroke="gray" />
-            <Text className="text-gray-600">Jakarta, JKT</Text>
+            <Text className="text-gray-600">Malang, Ml</Text>
           </View>
         </View>
+        <View
+          className="p-3 rounded-full"
+          style={{ backgroundColor: themeColors.bgColor(1) }}
+        >
+          <Icon.Filter
+            height="20"
+            width="20"
+            strokeWidth={2.5}
+            stroke="white"
+          />
+        </View>
       </View>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={{ paddingBottom: 20 }}
+      >
+        <Categories />
+      </ScrollView>
     </SafeAreaView>
   );
 }
